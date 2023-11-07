@@ -1,0 +1,50 @@
+#home {
+	width: 100%;
+	height: 100vh;
+}
+#report {
+	width: 100%;
+	height: 100vh;
+}
+#dashboard {
+	width: 100%;
+	height: 100vh;
+}
+#story {
+	width: 100%;
+	height: 100vh;
+}
+.link {
+	color: rgb(15, 147, 190);
+	text-transform: capitalize;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+.active {
+	color: chocolate;
+	display: block;
+}
+.navbar {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	top: 0px;
+}
+ul {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+h1 {
+	text-transform: capitalize;
+	margin: 10px 0px 0px 10px;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
